@@ -1,0 +1,64 @@
+:host,
+fieldset {
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend,
+input,
+p {
+    color: #282828;
+    padding-inline: 2.5px;
+    padding-block: 1.25px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+legend {
+    margin-block: 0;
+    margin-inline: auto;
+    font-weight: 555;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+article {
+    width: 100%;
+    > * {
+        width: 8.5vw;
+        display: block;
+        overflow-x: clip;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-inline: auto;
+    }
+}
+
+input {
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.25s ease-in-out;
+}
+
+input:hover,
+input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+input,
+p {
+    font-weight: 400;
+    margin-block: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-size: 0.8rem;
+}
